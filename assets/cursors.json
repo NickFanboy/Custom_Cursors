@@ -3,31 +3,37 @@
         "arrow": {
             "setting": "Normal Select",
             "animated": false,
+            "property": "default",
             "hotspot": "(0, 0)"
         },
         "helpsel": {
             "setting": "Help Select",
             "animated": true,
+            "property": "help",
             "hotspot": "(0, 0)"
         },
         "working": {
             "setting": "Working in Background",
             "animated": true,
+            "property": "progress",
             "hotspot": "(0, 0)"
         },
         "busy": {
             "setting": "Busy",
             "animated": true,
+            "property": "wait",
             "hotspot": "(15, 15)"
         },
         "cross": {
             "setting": "Precision Select",
             "animated": false,
+            "property": "crosshair",
             "hotspot": "(15, 15)"
         },
         "beam": {
             "setting": "Text Select",
             "animated": false,
+            "property": "text",
             "hotspot": "(15, 15)"
         },
         "pen": {
@@ -38,31 +44,37 @@
         "unavail": {
             "setting": "Unavailable",
             "animated": false,
+            "property": "not-allowed",
             "hotspot": "(7, 7)"
         },
         "ns": {
             "setting": "Vertical Resize",
             "animated": false,
+            "property": "ns-resize",
             "hotspot": "(4, 11)"
         },
         "ew": {
             "setting": "Horizontal Resize",
             "animated": false,
+            "property": "ew-resize",
             "hotspot": "(11, 4)"
         },
         "nwse": {
             "setting": "Diagonal Resize 1",
             "animated": false,
+            "property": "nwse-resize",
             "hotspot": "(7, 7)"
         },
         "nesw": {
             "setting": "Diagonal Resize 2",
             "animated": false,
+            "property": "nesw-resize",
             "hotspot": "(7, 7)"
         },
         "move": {
             "setting": "Move",
             "animated": false,
+            "property": "move",
             "hotspot": "(7, 7)"
         },
         "up": {
@@ -73,6 +85,7 @@
         "link": {
             "setting": "Link Select",
             "animated": false,
+            "property": "pointer",
             "hotspot": "(6, 0)"
         },
         "pin": {
@@ -89,36 +102,47 @@
 
     "userContent": {
         "alias": {
+            "property": "alias",
             "hotspot":"(0, 0)"
         },
         "cell": {
+            "property": "cell",
             "hotspot":"(15, 15)"
         },
         "col_resize": {
+            "property": "col-resize",
             "hotspot":"(15, 15)"
         },
         "context": {
+            "property": "context-menu",
             "hotspot":"(0, 0)"
         },
         "copy": {
+            "property": "copy",
             "hotspot":"(0, 0)"
         },
         "grab": {
+            "property": "grab",
             "hotspot":"(15, 15)"
         },
         "grabbing": {
+            "property": "grabbing",
             "hotspot":"(15, 15)"
         },
         "row_resize": {
+            "property": "row-resize",
             "hotspot":"(15, 15)"
         },
         "vertical_beam": {
+            "property": "vertical-text",
             "hotspot":"(15, 15)"
         },
         "zoom_in": {
+            "property": "zoom-in",
             "hotspot":"(15, 15)"
         },
         "zoom_out": {
+            "property": "zoom-out",
             "hotspot":"(15, 15)"
         }
     }

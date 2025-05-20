@@ -70,6 +70,7 @@
                         const cursor = data.windows[windowsCursorName];
                         var filetype = cursor.animated ? 'gif' : 'png';
                         const cursorRow = document.createElement('tr');
+                        cursorRow.style.cursor = cursor.property;
                         cursorRow.className = '';
                         cursorRow.innerHTML = `
                             <td>
@@ -90,6 +91,7 @@
                     userCursorNames.forEach((userCursorName, index) => {
                         const cursor = data.userContent[userCursorName];
                         const cursorRow = document.createElement('tr');
+                        cursorRow.style.cursor = cursor.property;
                         cursorRow.className = '';
                         cursorRow.innerHTML = `
                             <td>
