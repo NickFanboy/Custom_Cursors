@@ -4,7 +4,7 @@
 
 img {
     &.pixelated {
-        width: 29.35px;
+        width: 29.3px;
         image-rendering: pixelated;
     }
 }
