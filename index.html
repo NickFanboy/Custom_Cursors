@@ -89,7 +89,6 @@
                     const userTableBody = document.getElementById('userBody');
                     userCursorNames.forEach((userCursorName, index) => {
                         const cursor = data.userContent[userCursorName];
-                        var filetype = cursor.animated ? 'gif' : 'png';
                         const cursorRow = document.createElement('tr');
                         cursorRow.className = '';
                         cursorRow.innerHTML = `
@@ -97,7 +96,7 @@
                                 <p class="p-0 m-0">${userCursorName}</p>
                             </td>
                             <td>
-                                <img src="assets/cursors/pixel_pink_${userCursorName}.${filetype}" class="pixelated"/>
+                                <img src="assets/cursors/pixel_pink_${userCursorName}.png" class="pixelated"/>
                             </td>
                             <td>
                                 <p class="p-0 m-0">${cursor.hotspot}</p>
