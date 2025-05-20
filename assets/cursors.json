@@ -12,7 +12,7 @@
         },
         "working": {
             "setting": "Working in Background",
-            "animated": false,
+            "animated": true,
             "hotspot": "(0, 0)"
         },
         "busy": {

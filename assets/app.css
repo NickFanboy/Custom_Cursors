@@ -1,35 +1,108 @@
-.alias {cursor: alias;}
-.all-scroll {cursor: all-scroll;}
-.auto {cursor: auto;}
-.cell {cursor: cell;}
-.col-resize {cursor: col-resize;}
-.context-menu {cursor: context-menu;}
-.copy {cursor: copy;}
-.crosshair {cursor: crosshair;}
-.default {cursor: default;}
-.e-resize {cursor: e-resize;}
-.ew-resize {cursor: ew-resize;}
-.grab {cursor: -webkit-grab; cursor: grab;}
-.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
-.help {cursor: help;}
-.move {cursor: move;}
-.n-resize {cursor: n-resize;}
-.ne-resize {cursor: ne-resize;}
-.nesw-resize {cursor: nesw-resize;}
-.ns-resize {cursor: ns-resize;}
-.nw-resize {cursor: nw-resize;}
-.nwse-resize {cursor: nwse-resize;}
-.no-drop {cursor: no-drop;}
-.none {cursor: none;}
-.not-allowed {cursor: not-allowed;}
-.pointer {cursor: pointer;}
-.progress-cursor {cursor: progress;}
-.row-resize {cursor: row-resize;}
-.s-resize {cursor: s-resize;}
-.se-resize {cursor: se-resize;}
-.sw-resize {cursor: sw-resize;}
-.text {cursor: text;}
-.w-resize {cursor: w-resize;}
-.wait {cursor: wait;}
-.zoom-in {cursor: zoom-in;}
-.zoom-out {cursor: zoom-out;}
+.container-fluid {
+    box-sizing: border-box;
+}
+
+img {
+
+    &.pixelated {
+        width: 29.4px;
+        image-rendering: pixelated;
+    }
+}
+
+/* Cursors */
+.alias {
+    cursor: none;
+}
+
+.all-scroll {
+    cursor: url('cursors/pixel_pink_move.cur'), auto;
+}
+
+.cell {
+    cursor: url('cursors/pixel_pink_cell.cur'), auto;
+}
+
+.col-resize {
+    cursor: url('cursors/pixel_pink_col_resize.cur'), auto;
+}
+
+.context-menu {
+    cursor: none;
+}
+
+.copy {
+    cursor: none;
+}
+
+.crosshair {
+    cursor: url('cursors/pixel_pink_cross.cur'), auto;
+}
+
+.auto {
+    cursor: url('cursors/pixel_pink_arrow.cur'), auto;
+}
+
+.ew-resize {
+    cursor: url('cursors/pixel_pink_ew.cur'), auto;
+}
+
+.grab {
+    cursor: url('cursors/pixel_pink_grab.cur'), auto;
+}
+
+.grabbing {
+    cursor: url('cursors/pixel_pink_grabbing.cur'), auto;
+}
+
+.help {
+    cursor: none;
+}
+
+.move {
+    cursor: url('cursors/pixel_pink_move.cur'), auto;
+}
+
+.nesw-resize {
+    cursor: url('cursors/pixel_pink_nesw.cur'), auto;
+}
+
+.ns-resize {
+    cursor: url('cursors/pixel_pink_ns.cur'), auto;
+}
+
+.nwse-resize {
+    cursor: url('cursors/pixel_pink_nwse.cur'), auto;
+}
+
+.not-allowed {
+    cursor: url('cursors/pixel_pink_unavail.cur'), auto;
+}
+
+.pointer {
+    cursor: url('cursors/pixel_pink_link.cur'), auto;
+}
+
+.progress-cursor {
+    cursor: none;
+}
+
+.row-resize {
+    cursor: url('cursors/pixel_pink_row_resize.cur'), auto;
+}
+
+.text {
+    cursor: url('cursors/pixel_pink_beam.cur'), auto;
+}
+
+.wait {
+    cursor: none;
+}
+
+.zoom-in {
+    cursor: url('cursors/pixel_pink_zoom_in.cur'), auto;
+}
+
+.zoom-out {
+    cursor: url('cursors/pixel_pink_zoom_out.cur'), auto;
+}
