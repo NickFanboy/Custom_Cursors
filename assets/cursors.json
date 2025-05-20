@@ -87,35 +87,45 @@
         }
     },
 
-    "userContent.css": {
+    "userContent": {
         "alias": {
+            "animated": true,
             "hotspot":"(0, 0)"
         },
         "cell": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "col_resize": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "copy": {
+            "animated": true,
             "hotspot":"(0, 0)"
         },
         "grab": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "grabbing": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "row_resize": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "vertical_beam": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "zoom_in": {
+            "animated": false,
             "hotspot":"(15, 15)"
         },
         "zoom_out": {
+            "animated": false,
             "hotspot":"(15, 15)"
         }
     }

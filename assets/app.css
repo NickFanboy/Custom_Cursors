@@ -3,11 +3,14 @@
 }
 
 img {
-
     &.pixelated {
-        width: 29.4px;
+        width: 29.35px;
         image-rendering: pixelated;
     }
+}
+
+td {
+    width: 33%;
 }
 
 /* Cursors */
