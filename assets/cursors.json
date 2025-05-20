@@ -100,6 +100,10 @@
             "animated": false,
             "hotspot":"(15, 15)"
         },
+        "context": {
+            "animated": true,
+            "hotspot":"(0, 0)"
+        },
         "copy": {
             "animated": true,
             "hotspot":"(0, 0)"
