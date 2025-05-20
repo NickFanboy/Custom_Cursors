@@ -1,0 +1,123 @@
+{
+    "windows": {
+        "arrow": {
+            "setting": "Normal Select",
+            "animated": false,
+            "hotspot": "(0, 0)"
+        },
+        "helpsel": {
+            "setting": "Help Select",
+            "animated": true,
+            "hotspot": "(0, 0)"
+        },
+        "working": {
+            "setting": "Working in Background",
+            "animated": false,
+            "hotspot": "(0, 0)"
+        },
+        "busy": {
+            "setting": "Busy",
+            "animated": true,
+            "hotspot": "(15, 15)"
+        },
+        "cross": {
+            "setting": "Precision Select",
+            "animated": false,
+            "hotspot": "(15, 15)"
+        },
+        "beam": {
+            "setting": "Text Select",
+            "animated": false,
+            "hotspot": "(15, 15)"
+        },
+        "pen": {
+            "setting": "Handwriting",
+            "animated": false,
+            "hotspot": "(0, 0)"
+        },
+        "unavail": {
+            "setting": "Unavailable",
+            "animated": false,
+            "hotspot": "(7, 7)"
+        },
+        "ns": {
+            "setting": "Vertical Resize",
+            "animated": false,
+            "hotspot": "(4, 11)"
+        },
+        "ew": {
+            "setting": "Horizontal Resize",
+            "animated": false,
+            "hotspot": "(11, 4)"
+        },
+        "nwse": {
+            "setting": "Diagonal Resize 1",
+            "animated": false,
+            "hotspot": "(7, 7)"
+        },
+        "nesw": {
+            "setting": "Diagonal Resize 2",
+            "animated": false,
+            "hotspot": "(7, 7)"
+        },
+        "move": {
+            "setting": "Move",
+            "animated": false,
+            "hotspot": "(7, 7)"
+        },
+        "up": {
+            "setting": "Alternate Select",
+            "animated": false,
+            "hotspot": "(4, 0)"
+        },
+        "link": {
+            "setting": "Link Select",
+            "animated": false,
+            "hotspot": "(6, 0)"
+        },
+        "pin": {
+            "setting": "Location Select",
+            "animated": true,
+            "hotspot": "(6, 0)"
+        },
+        "person": {
+            "setting": "Person Select",
+            "animated": true,
+            "hotspot": "(6, 0)"
+        }
+    },
+
+    "userContent.css": {
+        "alias": {
+            "hotspot":"(0, 0)"
+        },
+        "cell": {
+            "hotspot":"(15, 15)"
+        },
+        "col_resize": {
+            "hotspot":"(15, 15)"
+        },
+        "copy": {
+            "hotspot":"(0, 0)"
+        },
+        "grab": {
+            "hotspot":"(15, 15)"
+        },
+        "grabbing": {
+            "hotspot":"(15, 15)"
+        },
+        "row_resize": {
+            "hotspot":"(15, 15)"
+        },
+        "vertical_beam": {
+            "hotspot":"(15, 15)"
+        },
+        "zoom_in": {
+            "hotspot":"(15, 15)"
+        },
+        "zoom_out": {
+            "hotspot":"(15, 15)"
+        }
+    }
+        
+}
